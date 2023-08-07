@@ -14,15 +14,22 @@
 
 .banner > h1 {
   margin: 5vmax;
-
+  color: blueviolet;
   font: 600 2.5vmax "Roboto";
+  margin-left: 670px;
+  margin-top: 40px;
+  padding-bottom: 40px;
 }
 
 .banner > p {
   font: 300 1.4vmax "Lucida Sans";
+  color: black;
+  font-size: 1.5rem;
+  margin-left: 580px;
 }
 
 .banner > a > button {
+  position: relative;
   margin-bottom: 5vmax;
   cursor: pointer;
   background-color: white;
@@ -32,9 +39,12 @@
   transition: all 0.5s;
   width: 9vmax;
   font: 500 1vmax "Roboto";
+  left: 290px;
+  bottom: 60px;
+  
 }
 .banner > a > button:hover {
-  background-color: rgba(255, 255, 255, 0);
+  background-color:blue;
   color: white;
 }
 
